@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float A, b, h; 
+    printf("Medida de b: ");
+    scanf("%f", &b);
+    printf("Medida de h: ");
+    scanf("%f", &h);
+    A = b * h;
+    printf("A es: %.2f\n", A);
+    return 0;
+}
