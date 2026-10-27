@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    float D, d, a; 
-    printf("Diagonal mayor: ");
+    float A, D, d; 
+    printf("Medida de D: ");
     scanf("%f", &D);
-    printf("Diagonal menor: ");
+    printf("Medida de d: ");
     scanf("%f", &d);
-    a = (D * d) / 2;
-    printf("Area es: %.2f\n", a);
+    A = (D * d) / 2;
+    printf("A es: %.2f\n", A);
     return 0;
 }
