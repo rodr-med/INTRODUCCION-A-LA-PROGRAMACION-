@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float A, L, a; 
+    printf("Medida de L: ");
+    scanf("%f", &L);
+    printf("Medida de a: ");
+    scanf("%f", &a);
+    A = (6 * L * a) / 2;
+    printf("A es: %.2f\n", A);
+    return 0;
+}
