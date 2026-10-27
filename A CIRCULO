@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    float r, a; 
-    printf("Medida del radio: ");
+    float A, r; 
+    printf("Medida de r: ");
     scanf("%f", &r);
-    a = 3.14159 * r * r;
-    printf("Area es: %.2f\n", a);
+    A = 3.1416 * r * r;
+    printf("A es: %.2f\n", A);
     return 0;
 }
