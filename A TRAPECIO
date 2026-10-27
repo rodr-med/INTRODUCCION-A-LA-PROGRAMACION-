@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    float B, b, h, a; 
+    printf("Base mayor: ");
+    scanf("%f", &B);
+    printf("Base menor: ");
+    scanf("%f", &b);
+    printf("Altura: ");
+    scanf("%f", &h);
+    a = ((B + b) * h) / 2;
+    printf("Area es: %.2f\n", a);
+    return 0;
+}
