@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    float p, ap, a; 
-    printf("Perimetro: ");
-    scanf("%f", &p);
-    printf("Apotema: ");
-    scanf("%f", &ap);
-    a = (p * ap) / 2;
-    printf("Area es: %.2f\n", a);
+    float A, a, L; 
+    printf("Medida de L: ");
+    scanf("%f", &L);
+    printf("Medida de a: ");
+    scanf("%f", &a);
+    A = (5 * L * a) / 2;
+    printf("A es: %.2f\n", A);
     return 0;
 }
