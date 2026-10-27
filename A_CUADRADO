@@ -1,0 +1,13 @@
+//AREA CUADRADO 
+#include <stdio.h>
+int main() {
+    float L, A; // 2 VARIABLES
+
+    printf("Medida del lado:");
+    scanf("%f", &L);
+
+    A = L * L;
+
+    printf("Area es: %.2f\n", A);
+    return 0;
+}
